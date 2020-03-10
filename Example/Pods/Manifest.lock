@@ -1,0 +1,16 @@
+PODS:
+  - GDTAd (1.0)
+
+DEPENDENCIES:
+  - GDTAd (from `../`)
+
+EXTERNAL SOURCES:
+  GDTAd:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GDTAd: 37be74d99534ddc98ead43ad36ccaaa0acf0fa12
+
+PODFILE CHECKSUM: 26c24c320774e40aa61ffd4fb27fffc47e279768
+
+COCOAPODS: 1.7.5

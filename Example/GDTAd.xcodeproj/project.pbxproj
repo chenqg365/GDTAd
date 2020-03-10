@@ -24,6 +24,17 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		80E3BB87BE634D1B3B83A129 /* Pods_GDTAd_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A2F4F9282D6D0C4EFF7958 /* Pods_GDTAd_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		B082B3EF241764B6004012F1 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B082B3EE241764B6004012F1 /* AdSupport.framework */; };
+		B082B3F1241764C5004012F1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B082B3F0241764C5004012F1 /* CoreLocation.framework */; };
+		B082B3F3241764D0004012F1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B082B3F2241764D0004012F1 /* QuartzCore.framework */; };
+		B082B3F5241764D7004012F1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B082B3F4241764D7004012F1 /* SystemConfiguration.framework */; };
+		B082B3F7241764DD004012F1 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B082B3F6241764DD004012F1 /* CoreTelephony.framework */; };
+		B082B3F9241764E6004012F1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B082B3F8241764E6004012F1 /* Security.framework */; };
+		B082B3FB241764EE004012F1 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B082B3FA241764EE004012F1 /* StoreKit.framework */; };
+		B082B3FD241764F5004012F1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B082B3FC241764F5004012F1 /* AVFoundation.framework */; };
+		B082B3FF24176500004012F1 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B082B3FE24176500004012F1 /* WebKit.framework */; };
+		B082B40124176508004012F1 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B082B40024176508004012F1 /* libz.tbd */; };
+		B082B40324176517004012F1 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B082B40224176517004012F1 /* libxml2.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +49,7 @@
 
 /* Begin PBXFileReference section */
 		28C79DA2F69F50D1853D8067 /* Pods_GDTAd_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GDTAd_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C331F6EAAB658E07B147925 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5C331F6EAAB658E07B147925 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GDTAd_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GDTAd_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,9 +74,20 @@
 		86ACB3248F8DF9B0B23A15D7 /* Pods-GDTAd_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDTAd_Tests.release.xcconfig"; path = "Target Support Files/Pods-GDTAd_Tests/Pods-GDTAd_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DA376CA40228054327C796C /* Pods-GDTAd_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDTAd_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GDTAd_Tests/Pods-GDTAd_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9538CEF85972497C333437E7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9538CEF85972497C333437E7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B082B3EE241764B6004012F1 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		B082B3F0241764C5004012F1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B082B3F2241764D0004012F1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B082B3F4241764D7004012F1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B082B3F6241764DD004012F1 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		B082B3F8241764E6004012F1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B082B3FA241764EE004012F1 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		B082B3FC241764F5004012F1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B082B3FE24176500004012F1 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		B082B40024176508004012F1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B082B40224176517004012F1 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		C1A2F4F9282D6D0C4EFF7958 /* Pods_GDTAd_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GDTAd_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6DEAF0743892238D1E18162 /* GDTAd.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GDTAd.podspec; path = ../GDTAd.podspec; sourceTree = "<group>"; };
+		D6DEAF0743892238D1E18162 /* GDTAd.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GDTAd.podspec; path = ../GDTAd.podspec; sourceTree = "<group>"; };
 		DB93ABB9CEC67E5FEBEEFEC0 /* Pods-GDTAd_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDTAd_Example.release.xcconfig"; path = "Target Support Files/Pods-GDTAd_Example/Pods-GDTAd_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +96,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B082B40324176517004012F1 /* libxml2.tbd in Frameworks */,
+				B082B40124176508004012F1 /* libz.tbd in Frameworks */,
+				B082B3FF24176500004012F1 /* WebKit.framework in Frameworks */,
+				B082B3FD241764F5004012F1 /* AVFoundation.framework in Frameworks */,
+				B082B3FB241764EE004012F1 /* StoreKit.framework in Frameworks */,
+				B082B3F9241764E6004012F1 /* Security.framework in Frameworks */,
+				B082B3F7241764DD004012F1 /* CoreTelephony.framework in Frameworks */,
+				B082B3F5241764D7004012F1 /* SystemConfiguration.framework in Frameworks */,
+				B082B3F3241764D0004012F1 /* QuartzCore.framework in Frameworks */,
+				B082B3F1241764C5004012F1 /* CoreLocation.framework in Frameworks */,
+				B082B3EF241764B6004012F1 /* AdSupport.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -119,6 +152,17 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B082B40224176517004012F1 /* libxml2.tbd */,
+				B082B40024176508004012F1 /* libz.tbd */,
+				B082B3FE24176500004012F1 /* WebKit.framework */,
+				B082B3FC241764F5004012F1 /* AVFoundation.framework */,
+				B082B3FA241764EE004012F1 /* StoreKit.framework */,
+				B082B3F8241764E6004012F1 /* Security.framework */,
+				B082B3F6241764DD004012F1 /* CoreTelephony.framework */,
+				B082B3F4241764D7004012F1 /* SystemConfiguration.framework */,
+				B082B3F2241764D0004012F1 /* QuartzCore.framework */,
+				B082B3F0241764C5004012F1 /* CoreLocation.framework */,
+				B082B3EE241764B6004012F1 /* AdSupport.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -193,7 +237,6 @@
 				8DA376CA40228054327C796C /* Pods-GDTAd_Tests.debug.xcconfig */,
 				86ACB3248F8DF9B0B23A15D7 /* Pods-GDTAd_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +251,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				2E0BC7AEEB4AFE86205910E9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,6 +300,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -315,24 +358,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2E0BC7AEEB4AFE86205910E9 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GDTAd_Example/Pods-GDTAd_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GDTAd/GDTAd.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GDTAd.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GDTAd_Example/Pods-GDTAd_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		85095C353120A8BE40DC03E1 /* [CP] Check Pods Manifest.lock */ = {

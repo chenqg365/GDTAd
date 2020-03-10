@@ -1,0 +1,6 @@
+framework module GDTAd {
+  umbrella header "GDTAd-umbrella.h"
+
+  export *
+  module * { export * }
+}

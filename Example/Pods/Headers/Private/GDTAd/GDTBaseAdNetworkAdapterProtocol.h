@@ -1,0 +1,1 @@
+../../../../../GDTAd/GDTBaseAdNetworkAdapterProtocol.h

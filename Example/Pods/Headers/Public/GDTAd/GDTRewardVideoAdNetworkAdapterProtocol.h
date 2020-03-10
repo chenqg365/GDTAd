@@ -1,0 +1,1 @@
+../../../../../GDTAd/GDTRewardVideoAdNetworkAdapterProtocol.h

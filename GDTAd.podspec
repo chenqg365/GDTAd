@@ -8,35 +8,19 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GDTAd'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of GDTAd.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
+  s.version          = '1.0'
+  s.summary          = '腾讯广点通广告'
+  s.description      = '腾讯广点通广告集成'
   s.homepage         = 'https://github.com/chenqg365/GDTAd'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'chenqg365' => 'chenqg3721@163.com' }
+  s.author           = { 'chenqg' => 'chenqg3721@163.com' }
   s.source           = { :git => 'https://github.com/chenqg365/GDTAd.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'GDTAd/Classes/**/*'
+  s.source_files = 'GDTAd/**/*h'
+  s.ios.frameworks = 'AdSupport', 'CoreLocation', 'QuartzCore', 'SystemConfiguration', 'CoreTelephony', 'Security', 'StoreKit', 'AVFoundation', 'WebKit'
+  s.ios.libraries = "xml2","z"
+  s.vendored_libraries = 'GDTAd/libGDTMobSDK.a'
   
-  # s.resource_bundles = {
-  #   'GDTAd' => ['GDTAd/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
